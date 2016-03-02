@@ -1,0 +1,26 @@
+{
+  "name": "sockitio-js",
+  "version": "1.0.0",
+  "description": "socket.io irc client",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t3h2mas/sockitio-js"
+  },
+  "keywords": [
+    "socket.io",
+    "node.js",
+    "express.js",
+    "irc"
+  ],
+  "author": "Thomas Noe (t3h2mas)",
+  "license": "MIT"
+}
