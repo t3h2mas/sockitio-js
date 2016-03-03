@@ -6,6 +6,20 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   </head>
   <body>
+
+    <div class='overlay-message'>
+      <h2>Hey there!</h2>
+      <p>before entering the chat, please enter your username below:</p>
+      <form id='userInfo'>
+        <input type='text' id='nick' class='spacing-right' required />
+        <input type='text' id='server' class='spacing-right' required />
+        <input type='text' id='chan' class='spacing-right' required />
+        <button type='submit' class='btn-round'>Enter</button>
+      </form>
+    </div>
+
+    <div class='overlay'></div>
+
     <div class="container-fluid">
       <ul id="messages"></ul>
       <form action="" class="form-horizontal f">
